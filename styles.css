@@ -1010,6 +1010,7 @@ body::before {
 
   .hero__countdown {
     padding: 1.7rem;
+    padding-bottom: 2.5rem;
   }
   
   .hero__visual {
@@ -1026,15 +1027,42 @@ body::before {
     align-items: flex-start;
   }
 
+  .status-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .status-card {
+    padding: 1.4rem 1rem;
+    min-width: 0;
+  }
+
   .status-card--long,
   .status-card--seconds {
     grid-column: span 2;
+  }
+
+  .status-value {
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
+  }
+
+  .status-card--long .status-value {
+    font-size: clamp(1rem, 3.5vw, 1.4rem);
+  }
+
+  .status-card--seconds .status-value {
+    font-size: clamp(0.9rem, 3vw, 1.2rem);
   }
 }
 
 @media (max-width: 520px) {
   .hero {
-    padding: 2.1rem;
+    padding: 1.8rem;
+  }
+
+  .hero__countdown {
+    padding: 1.4rem;
+    padding-bottom: 2rem;
   }
 
   .hero__cta {
@@ -1043,7 +1071,28 @@ body::before {
   }
 
   .status-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.85rem;
+  }
+
+  .status-card {
+    padding: 1.2rem 0.8rem;
+  }
+
+  .status-label {
+    font-size: 0.65rem;
+  }
+
+  .status-value {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+  }
+
+  .status-card--long .status-value {
+    font-size: clamp(0.95rem, 4vw, 1.3rem);
+  }
+
+  .status-card--seconds .status-value {
+    font-size: clamp(0.85rem, 3.5vw, 1.1rem);
   }
 }
 
