@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Florida Launch Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Operation: Escape from New York</p>
+          <h1 class="hero__title">
+            Countdown to Sunshine
+          </h1>
+          <p class="hero__subtitle">
+            One epic fan, one final bell. When graduation hits on
+            <span class="accent">June 18, 2028</span>, the bags roll south and the palm trees become home ice.
+            Keep the hype high with Islanders blue & orange energy.
+          </p>
+          <div class="hero__countdown" id="countdown">
+            <div class="countdown-heading">
+              <h2>Countdown to Graduation</h2>
+              <p>Track the time remaining until the Florida relocation.</p>
+            </div>
+            <div class="status-grid">
+            <div class="status-card">
+                <span class="status-label">Days</span>
+                <span class="status-value" id="days">–</span>
+              </div>
+              <div class="status-card">
+                <span class="status-label">Months</span>
+                <span class="status-value" id="months">–</span>
+              </div>
+              <div class="status-card">
+                <span class="status-label">Years</span>
+                <span class="status-value" id="years">–</span>
+              </div>
+              <div class="status-card">
+                <span class="status-label">Hours</span>
+                <span class="status-value" id="hours">–</span>
+              </div>
+            <div class="status-card status-card--long">
+                <span class="status-label">Minutes</span>
+                <span class="status-value" id="minutes">–</span>
+              </div>
+            <div class="status-card status-card--seconds">
+                <span class="status-label">Seconds</span>
+                <span class="status-value" id="seconds">–</span>
+              </div>
+            </div>
+            <div class="progress-board">
+              <div class="progress-header">
+                <span>Progress toward graduation</span>
+                <span class="progress-percent" id="progress-percent">0%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-bar__fill" id="progress-bar"></div>
+              </div>
+            <p class="progress-meta" id="progress-meta">
+              Tracking from September 2, 2024 through graduation day — every completed day from last school year onward builds toward wheels-up.
+            </p>
+              <div class="progress-footnotes">
+              <div>
+                <span class="footnote-label">Progress Start</span>
+                <span class="footnote-value" id="start-date">–</span>
+              </div>
+                <div>
+                  <span class="footnote-label">Graduation Day</span>
+                  <span class="footnote-value" id="target-date">–</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__cta">
+            <button class="cta-button" data-scroll-target="#timeline">
+              View Game Plan
+            </button>
+            <button class="cta-button cta-button--ghost" data-scroll-target="#milestones">
+              Rally the Hype Squad
+            </button>
+            <button class="cta-button cta-button--ghost" id="copy-escape-plan">
+              Send Escape Plan Update
+            </button>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__badge">
+            <span class="hero__badge-label">Bleeds Blue & Orange</span>
+            <span class="hero__badge-value">FL Bound</span>
+          </div>
+          <div class="orbit">
+            <div class="orbit__ring orbit__ring--outer"></div>
+            <div class="orbit__ring orbit__ring--middle"></div>
+            <div class="orbit__ring orbit__ring--inner"></div>
+            <div class="orbit__marker orbit__marker--ny">
+              <span>NY</span>
+            </div>
+            <div class="orbit__marker orbit__marker--fl">
+              <span>FL</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="milestones" class="panel panel--milestones">
+          <div class="panel__header">
+            <h2>Season Schedule</h2>
+            <p class="panel__lead">
+              Track the current grind, the next build-up, and the final senior push before wheels-up to Florida.
+            </p>
+          </div>
+          <div class="milestone-track" role="presentation">
+            <div class="milestone-track__rail">
+              <div class="milestone-track__progress" id="milestone-progress"></div>
+            </div>
+            <div class="milestone-track__nodes" id="milestone-nodes"></div>
+          </div>
+          <div class="milestone-cards" id="milestone-cards"></div>
+        </section>
+
+        <section id="isles-schedule" class="panel panel--alt panel--isles">
+          <div class="panel__header">
+            <h2>Islanders Countdown</h2>
+            <p class="panel__lead">
+              Next puck drop and upcoming games straight from the Islanders schedule.
+            </p>
+          </div>
+          <div class="isles-layout">
+            <div class="isles-countdown">
+              <div class="isles-countdown__header">
+                <span class="isles-countdown__label">Next Puck Drop</span>
+                <span class="isles-countdown__opponent" id="isles-opponent">Loading…</span>
+              </div>
+              <div class="isles-countdown__timer" id="isles-countdown">–</div>
+              <div class="isles-countdown__meta">
+                <span id="isles-game-info">Fetching game details…</span>
+                <span id="isles-broadcast" class="isles-countdown__broadcast"></span>
+              </div>
+            </div>
+            <div class="isles-schedule">
+              <h3>Upcoming Games</h3>
+              <ul class="isles-schedule__list" id="isles-schedule-list">
+                <li class="isles-schedule__item isles-schedule__item--loading">
+                  Loading schedule…
+                </li>
+              </ul>
+              <p class="isles-schedule__source">
+                Data courtesy of the Islanders official schedule.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="timeline" class="panel panel--alt">
+          <div class="panel__header">
+            <h2>Game Plan</h2>
+            <p class="panel__lead">
+              Key plays from sophomore-year warm-ups through the final buzzer. Every phase moves the relocation playbook forward.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-card">
+              <header>
+                <span class="timeline-tag timeline-tag--active">Active</span>
+                <h3>Last School Year Highlights</h3>
+                <p class="timeline-date">September 2, 2024 – June 26, 2025</p>
+              </header>
+              <p>
+                Coursework, clubs, exams, and steady momentum. Archive the wins from this season and use them as fuel for the sophomore-year build-up.
+              </p>
+            </article>
+
+            <article class="timeline-card">
+              <header>
+                <span class="timeline-tag timeline-tag--upcoming">Warm-Up</span>
+                <h3>Sophomore Year Build-Up</h3>
+                <p class="timeline-date">September 2, 2025 – June 24, 2026</p>
+              </header>
+              <p>
+                Power scheduling, college visits, leadership roles, and test prep. Everything here sets the table for senior year fireworks.
+              </p>
+            </article>
+
+            <article class="timeline-card">
+              <header>
+                <span class="timeline-tag timeline-tag--upcoming">Final Buzzer</span>
+                <h3>Graduation & Go</h3>
+                <p class="timeline-date">September 7, 2027 – June 18, 2028</p>
+              </header>
+              <p>
+                Cap and gown, family cheers, then straight into moving vans. The final buzzer
+                sounds and it’s time to trade snow boots for flip-flops.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Built with heart in Florida, aimed squarely at New York.
+        </p>
+      </footer>
+    </div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
+
