@@ -535,7 +535,13 @@ async function loadIslesSchedule() {
   const apiUrl = `https://api-web.nhle.com/v1/club-schedule-season/${ISLES_TEAM_CODE}/${season}`;
   
   // Always use CORS proxy since NHL API doesn't allow direct access from browsers
-  const proxyUrl = 'https://api.allorigins.win/raw?url=';
+  // Try multiple proxy services for reliability
+  const proxyServices = [
+    'https://api.allorigins.win/raw?url=',
+    'https://corsproxy.io/?',
+    'https://api.codetabs.com/v1/proxy?quest='
+  ];
+  const proxyUrl = proxyServices[0]; // Primary proxy
   const url = proxyUrl + encodeURIComponent(apiUrl);
   
   console.log("[Islanders Schedule] Fetching from API:", {
