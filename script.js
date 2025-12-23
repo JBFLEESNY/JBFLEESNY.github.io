@@ -201,7 +201,9 @@ function wireInteractions() {
         const months = elements.months?.textContent || "0";
         const hours = elements.hours?.textContent || "0";
 
-        const escapePlanText = `Here is your daily update for the New York escape plan: ${todayFormatted}. There are only ${days} days left until we escape to Florida! This translates to ${years} years, or ${months} months, or ${hours} hours`;
+        const escapePlanText = `Here is your daily update for the New York escape plan: ${todayFormatted}. There are only ${days} days left until we escape to Florida! This translates to ${years} years, or ${months} months, or ${hours} hours
+
+Follow along in real time at: https://jbfleesny.github.io/`;
 
         // Use Clipboard API (works on desktop and mobile)
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -239,7 +241,9 @@ function wireInteractions() {
         const years = elements.years?.textContent || "0";
         const months = elements.months?.textContent || "0";
         const hours = elements.hours?.textContent || "0";
-        const escapePlanText = `Here is your daily update for the New York escape plan: ${todayFormatted}. There are only ${days} days left until we escape to Florida! This translates to ${years} years, or ${months} months, or ${hours} hours`;
+        const escapePlanText = `Here is your daily update for the New York escape plan: ${todayFormatted}. There are only ${days} days left until we escape to Florida! This translates to ${years} years, or ${months} months, or ${hours} hours
+
+Follow along in real time at: https://jbfleesny.github.io/`;
         alert(`Copy this text:\n\n${escapePlanText}`);
       }
     });
