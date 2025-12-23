@@ -532,21 +532,15 @@ async function loadIslesSchedule() {
   }
 
   const season = computeNhlSeasonCode();
-  let url = `https://api-web.nhle.com/v1/club-schedule-season/${ISLES_TEAM_CODE}/${season}`;
+  const apiUrl = `https://api-web.nhle.com/v1/club-schedule-season/${ISLES_TEAM_CODE}/${season}`;
   
-  // Use CORS proxy for local development
-  const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-  if (isLocalhost) {
-    // Use a CORS proxy for local development
-    const proxyUrl = 'https://api.allorigins.win/raw?url=';
-    url = proxyUrl + encodeURIComponent(url);
-    console.log("[Islanders Schedule] Using CORS proxy for local development");
-  }
+  // Always use CORS proxy since NHL API doesn't allow direct access from browsers
+  const proxyUrl = 'https://api.allorigins.win/raw?url=';
+  const url = proxyUrl + encodeURIComponent(apiUrl);
   
   console.log("[Islanders Schedule] Fetching from API:", {
     season,
     teamCode: ISLES_TEAM_CODE,
-    isLocalhost,
     url
   });
 
