@@ -4,19 +4,19 @@ const seniorYearStart = new Date("2027-09-07T00:00:00-04:00");
 const milestones = [
   {
     id: "current",
-    label: "Last School Year",
-    title: "Last School Year (2024–25)",
-    start: new Date("2024-09-02T00:00:00-04:00"),
-    end: new Date("2025-06-26T23:59:59-04:00"),
-    blurb:
-      "Momentum-builder complete. Archived strong grades, highlight reels, and plenty of Florida daydreaming during breaks.",
-  },
-  {
-    id: "next",
     label: "Sophomore Season",
     title: "Sophomore Year Build-Up (2025–26)",
     start: new Date("2025-09-02T00:00:00-04:00"),
     end: new Date("2026-06-24T23:59:59-04:00"),
+    blurb:
+      "Build strong foundations this year. Focus on good study habits, explore interests, and start thinking about what you want to pursue. Keep the Florida goal in sight and use Islanders games as your reward for hard work.",
+  },
+  {
+    id: "next",
+    label: "Junior Season",
+    title: "Junior Year Build-Up (2026–27)",
+    start: new Date("2026-09-08T00:00:00-04:00"),
+    end: new Date("2027-06-24T23:59:59-04:00"),
     blurb:
       "Heavy-weight year for transcripts and leadership. Line up college lists, visit campuses, and keep Isles energy on loop during long study nights.",
   },
@@ -428,7 +428,12 @@ function updateMilestones(referenceDate = new Date()) {
     let percentForBar = 0;
 
     if (state.status === "upcoming") {
-      statusLabel = "Up next";
+      // Use different label for final season
+      if (milestone.id === "final") {
+        statusLabel = "Final stretch";
+      } else {
+        statusLabel = "Up next";
+      }
       countLabel = `${state.daysUntilStart.toLocaleString()}d`;
       progressDetail = `Starts in ${state.daysUntilStart.toLocaleString()} days`;
     } else if (state.status === "active") {
