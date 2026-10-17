@@ -41,7 +41,7 @@ const overallProgressStart = new Date("2024-09-02T00:00:00-04:00");
 const ISLES_TEAM_CODE = "NYI";
 // Written by .github/workflows/update-isles-schedule.yml (the NHL API blocks browser requests).
 const ISLES_BUNDLED_SCHEDULE_URL = "./data/isles-schedule.json";
-const ISLES_BUNDLED_STALE_MS = 12 * 60 * 60 * 1000;
+const ISLES_BUNDLED_STALE_MS = 36 * 60 * 60 * 1000;
 const NHL_SCHEDULE_URL = `https://api-web.nhle.com/v1/club-schedule-season/${ISLES_TEAM_CODE}/now`;
 const CORS_PROXIES = [
   (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,

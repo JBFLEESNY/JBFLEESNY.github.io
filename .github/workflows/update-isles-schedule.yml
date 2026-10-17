@@ -2,8 +2,8 @@ name: Update Islanders schedule
 
 on:
   schedule:
-    # Every 2 hours, so scores and schedule changes show up the same night.
-    - cron: "17 */2 * * *"
+    # Twice a day (UTC): ~1 AM ET for last night's final score, ~6 AM ET for late West Coast games.
+    - cron: "17 5,10 * * *"
   workflow_dispatch:
 
 permissions:
