@@ -7,16 +7,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Special+Elite&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./halloween.css" />
+    <script>
+      // Runs before paint so Halloween Mode doesn't flash the blue theme first.
+      // Defaults to on during October unless it's been switched off.
+      (function () {
+        var stored = null;
+        try {
+          stored = localStorage.getItem("halloweenMode");
+        } catch (e) {}
+        var isOctober = new Date().getMonth() === 9;
+        if (stored === "on" || (stored === null && isOctober)) {
+          document.documentElement.dataset.theme = "halloween";
+        }
+      })();
+    </script>
   </head>
   <body>
+    <button class="spooky-toggle" id="halloween-toggle" type="button" aria-pressed="false">
+      <svg class="spooky-toggle__icon" aria-hidden="true" focusable="false"><use href="#hw-pumpkin"></use></svg>
+      <span class="spooky-toggle__label">Halloween Mode</span>
+      <span class="spooky-toggle__switch" aria-hidden="true"></span>
+    </button>
     <div class="page-shell">
       <header class="hero">
         <div class="hero__content">
-          <p class="eyebrow">Operation: Escape from New York</p>
+          <p class="eyebrow" data-halloween-text="Operation: Escape from Sleepy Hollow">Operation: Escape from New York</p>
           <h1 class="hero__title">
             Countdown to Sunshine
           </h1>
@@ -28,7 +48,7 @@
           <div class="hero__countdown" id="countdown">
             <div class="countdown-heading">
               <h2>Countdown to Graduation</h2>
-              <p>Track the time remaining until the Florida relocation.</p>
+              <p data-halloween-text="Track the time remaining until the great Florida escape... if you dare.">Track the time remaining until the Florida relocation.</p>
             </div>
             <div class="status-grid">
             <div class="status-card">
@@ -86,9 +106,6 @@
             <button class="cta-button cta-button--ghost" data-scroll-target="#isles-schedule">
               View Islanders Schedule
             </button>
-            <button class="cta-button cta-button--ghost" data-scroll-target="#timeline">
-              View Game Plan
-            </button>
             <button class="cta-button cta-button--ghost" id="copy-escape-plan">
               Send Escape Plan Update
             </button>
@@ -96,7 +113,7 @@
         </div>
         <div class="hero__visual">
           <div class="hero__badge">
-            <span class="hero__badge-label">Bleeds Blue & Orange</span>
+            <span class="hero__badge-label" data-halloween-text="Bleeds Black & Orange">Bleeds Blue & Orange</span>
             <span class="hero__badge-value">FL Bound</span>
           </div>
           <div class="orbit">
@@ -140,13 +157,14 @@
           <div class="isles-layout">
             <div class="isles-countdown">
               <div class="isles-countdown__header">
-                <span class="isles-countdown__label">Next Puck Drop</span>
+                <span class="isles-countdown__label" id="isles-label">Next Puck Drop</span>
                 <span class="isles-countdown__opponent" id="isles-opponent">Loading…</span>
               </div>
               <div class="isles-countdown__timer" id="isles-countdown">–</div>
               <div class="isles-countdown__meta">
                 <span id="isles-game-info">Fetching game details…</span>
                 <span id="isles-broadcast" class="isles-countdown__broadcast"></span>
+                <span id="isles-last-result" class="isles-countdown__last"></span>
               </div>
             </div>
             <div class="isles-schedule">
@@ -162,58 +180,16 @@
             </div>
           </div>
         </section>
-
-        <section id="timeline" class="panel panel--alt">
-          <div class="panel__header">
-            <h2>Game Plan</h2>
-            <p class="panel__lead">
-              Key plays from sophomore-year warm-ups through the final buzzer. Every phase moves the relocation playbook forward.
-            </p>
-          </div>
-          <div class="timeline">
-            <article class="timeline-card">
-              <header>
-                <span class="timeline-tag timeline-tag--active">Active</span>
-                <h3>Sophomore Year Build-Up</h3>
-                <p class="timeline-date">September 2, 2025 – June 24, 2026</p>
-              </header>
-              <p>
-                Build strong foundations this year. Focus on good study habits, explore interests, and start thinking about what you want to pursue. Keep the Florida goal in sight and use Islanders games as your reward for hard work.
-              </p>
-            </article>
-
-            <article class="timeline-card">
-              <header>
-                <span class="timeline-tag timeline-tag--upcoming">Warm-Up</span>
-                <h3>Junior Year Build-Up</h3>
-                <p class="timeline-date">September 8, 2026 – June 24, 2027</p>
-              </header>
-              <p>
-                Heavy-weight year for transcripts and leadership. Line up college lists, visit campuses, and keep Isles energy on loop during long study nights.
-              </p>
-            </article>
-
-            <article class="timeline-card">
-              <header>
-                <span class="timeline-tag timeline-tag--upcoming">Final Buzzer</span>
-                <h3>Graduation & Go</h3>
-                <p class="timeline-date">September 7, 2027 – June 18, 2028</p>
-              </header>
-              <p>
-                Capstones, celebrations, and final commitments. Every assignment finished is another stride toward graduation day and the Florida relocation.
-              </p>
-            </article>
-          </div>
-        </section>
       </main>
 
       <footer class="footer">
-        <p>
+        <p data-halloween-text="Brewed with heart in Florida, haunting New York.">
           Built with heart in Florida, aimed squarely at New York.
         </p>
       </footer>
     </div>
     <script src="./script.js" type="module"></script>
+    <script src="./halloween.js" type="module"></script>
   </body>
 </html>
 
