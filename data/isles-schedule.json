@@ -1,0 +1,4204 @@
+{
+ "updatedAt": "2026-10-17T13:52:42+00:00",
+ "games": [
+  {
+   "id": 2026010008,
+   "season": 20262027,
+   "gameType": 1,
+   "gameDate": "2026-09-20",
+   "startTimeUTC": "2026-09-20T17:00:00Z",
+   "gameState": "FINAL",
+   "venue": {
+    "default": "Prudential Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "NHLN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NJD",
+    "placeName": {
+     "default": "New Jersey"
+    },
+    "commonName": {
+     "default": "Devils"
+    },
+    "score": 2
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 1
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026010027,
+   "season": 20262027,
+   "gameType": 1,
+   "gameDate": "2026-09-22",
+   "startTimeUTC": "2026-09-22T23:00:00Z",
+   "gameState": "FINAL",
+   "venue": {
+    "default": "Madison Square Garden"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYR",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Rangers"
+    },
+    "score": 3
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 4
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026010051,
+   "season": 20262027,
+   "gameType": 1,
+   "gameDate": "2026-09-25",
+   "startTimeUTC": "2026-09-25T23:30:00Z",
+   "gameState": "FINAL",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 1
+   },
+   "awayTeam": {
+    "abbrev": "NYR",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Rangers"
+    },
+    "score": 6
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026010062,
+   "season": 20262027,
+   "gameType": 1,
+   "gameDate": "2026-09-26",
+   "startTimeUTC": "2026-09-26T23:30:00Z",
+   "gameState": "FINAL",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 1
+   },
+   "awayTeam": {
+    "abbrev": "NJD",
+    "placeName": {
+     "default": "New Jersey"
+    },
+    "commonName": {
+     "default": "Devils"
+    },
+    "score": 4
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020008,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-09-30",
+   "startTimeUTC": "2026-09-30T23:30:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "Scotiabank Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "Prime"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "TOR",
+    "placeName": {
+     "default": "Toronto"
+    },
+    "commonName": {
+     "default": "Maple Leafs"
+    },
+    "score": 2
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 1
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020029,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-03",
+   "startTimeUTC": "2026-10-03T23:30:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 6
+   },
+   "awayTeam": {
+    "abbrev": "NJD",
+    "placeName": {
+     "default": "New Jersey"
+    },
+    "commonName": {
+     "default": "Devils"
+    },
+    "score": 0
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020048,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-06",
+   "startTimeUTC": "2026-10-06T23:30:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "Madison Square Garden"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYR",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Rangers"
+    },
+    "score": 5
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 2
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020062,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-08",
+   "startTimeUTC": "2026-10-08T23:30:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "CHSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 4
+   },
+   "awayTeam": {
+    "abbrev": "CHI",
+    "placeName": {
+     "default": "Chicago"
+    },
+    "commonName": {
+     "default": "Blackhawks"
+    },
+    "score": 1
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020081,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-10",
+   "startTimeUTC": "2026-10-10T23:30:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "The Spot"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 3
+   },
+   "awayTeam": {
+    "abbrev": "TBL",
+    "placeName": {
+     "default": "Tampa Bay"
+    },
+    "commonName": {
+     "default": "Lightning"
+    },
+    "score": 5
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020097,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-13",
+   "startTimeUTC": "2026-10-13T23:45:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SNP"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 3
+   },
+   "awayTeam": {
+    "abbrev": "VAN",
+    "placeName": {
+     "default": "Vancouver"
+    },
+    "commonName": {
+     "default": "Canucks"
+    },
+    "score": 2
+   },
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
+  },
+  {
+   "id": 2026020109,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-15",
+   "startTimeUTC": "2026-10-15T23:00:00Z",
+   "gameState": "OFF",
+   "venue": {
+    "default": "Canadian Tire Centre"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "CA",
+     "network": "TSN5"
+    },
+    {
+     "market": "H",
+     "countryCode": "CA",
+     "network": "RDS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "OTT",
+    "placeName": {
+     "default": "Ottawa"
+    },
+    "commonName": {
+     "default": "Senators"
+    },
+    "score": 2
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": 1
+   },
+   "gameOutcome": {
+    "lastPeriodType": "SO"
+   }
+  },
+  {
+   "id": 2026020125,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-17",
+   "startTimeUTC": "2026-10-17T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Scotiabank Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "TOR",
+    "placeName": {
+     "default": "Toronto"
+    },
+    "commonName": {
+     "default": "Maple Leafs"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020143,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-20",
+   "startTimeUTC": "2026-10-20T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "FOXLA+"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "Prime Video"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "ANA",
+    "placeName": {
+     "default": "Anaheim"
+    },
+    "commonName": {
+     "default": "Ducks"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020159,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-22",
+   "startTimeUTC": "2026-10-22T23:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN+"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HULU"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "Disney+"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "LAK",
+    "placeName": {
+     "default": "Los Angeles"
+    },
+    "commonName": {
+     "default": "Kings"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020181,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-25",
+   "startTimeUTC": "2026-10-25T22:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "American Airlines Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "Prime Video"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "DAL",
+    "placeName": {
+     "default": "Dallas"
+    },
+    "commonName": {
+     "default": "Stars"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020192,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-27",
+   "startTimeUTC": "2026-10-28T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Bridgestone Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NSH",
+    "placeName": {
+     "default": "Nashville"
+    },
+    "commonName": {
+     "default": "Predators"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020210,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-29",
+   "startTimeUTC": "2026-10-30T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Grand Casino Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MINNHL"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "Wild+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "MIN",
+    "placeName": {
+     "default": "Minnesota"
+    },
+    "commonName": {
+     "default": "Wild"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020220,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-10-31",
+   "startTimeUTC": "2026-10-31T18:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "EDM",
+    "placeName": {
+     "default": "Edmonton"
+    },
+    "commonName": {
+     "default": "Oilers"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020255,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-05",
+   "startTimeUTC": "2026-11-06T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN+"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HULU"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "Disney+"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "CAR",
+    "placeName": {
+     "default": "Carolina"
+    },
+    "commonName": {
+     "default": "Hurricanes"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020270,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-07",
+   "startTimeUTC": "2026-11-08T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NJD",
+    "placeName": {
+     "default": "New Jersey"
+    },
+    "commonName": {
+     "default": "Devils"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020285,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-09",
+   "startTimeUTC": "2026-11-10T03:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "SAP Center at San Jose"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "NBCSCA"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "SJS",
+    "placeName": {
+     "default": "San Jose"
+    },
+    "commonName": {
+     "default": "Sharks"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020308,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-12",
+   "startTimeUTC": "2026-11-13T03:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Crypto.com Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN+"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HULU"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "Disney+"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "LAK",
+    "placeName": {
+     "default": "Los Angeles"
+    },
+    "commonName": {
+     "default": "Kings"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020324,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-14",
+   "startTimeUTC": "2026-11-15T03:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Honda Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "FOXLA+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "Prime Video"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "ANA",
+    "placeName": {
+     "default": "Anaheim"
+    },
+    "commonName": {
+     "default": "Ducks"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020336,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-17",
+   "startTimeUTC": "2026-11-18T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "CBJNHL"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "CBJHN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "CBJ",
+    "placeName": {
+     "default": "Columbus"
+    },
+    "commonName": {
+     "default": "Blue Jackets"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020354,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-19",
+   "startTimeUTC": "2026-11-20T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Canada Life Centre"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "CA",
+     "network": "TSN3"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "WPG",
+    "placeName": {
+     "default": "Winnipeg"
+    },
+    "commonName": {
+     "default": "Jets"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020367,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-21",
+   "startTimeUTC": "2026-11-22T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Little Caesars Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "DSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "DET",
+    "placeName": {
+     "default": "Detroit"
+    },
+    "commonName": {
+     "default": "Red Wings"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020381,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-23",
+   "startTimeUTC": "2026-11-24T00:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "TOR",
+    "placeName": {
+     "default": "Toronto"
+    },
+    "commonName": {
+     "default": "Maple Leafs"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020390,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-25",
+   "startTimeUTC": "2026-11-26T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "STLNHL"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "BN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "STL",
+    "placeName": {
+     "default": "St. Louis"
+    },
+    "commonName": {
+     "default": "Blues"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020412,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-27",
+   "startTimeUTC": "2026-11-28T00:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "TSN3"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "WPG",
+    "placeName": {
+     "default": "Winnipeg"
+    },
+    "commonName": {
+     "default": "Jets"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020423,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-11-28",
+   "startTimeUTC": "2026-11-29T00:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Xfinity Mobile Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "NBCSP"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "PHI",
+    "placeName": {
+     "default": "Philadelphia"
+    },
+    "commonName": {
+     "default": "Flyers"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020438,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-01",
+   "startTimeUTC": "2026-12-02T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "FLA",
+    "placeName": {
+     "default": "Florida"
+    },
+    "commonName": {
+     "default": "Panthers"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020452,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-03",
+   "startTimeUTC": "2026-12-04T00:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Xfinity Mobile Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN+"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HULU"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "Disney+"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "PHI",
+    "placeName": {
+     "default": "Philadelphia"
+    },
+    "commonName": {
+     "default": "Flyers"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020460,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-04",
+   "startTimeUTC": "2026-12-05T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "NBCSCA"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "SJS",
+    "placeName": {
+     "default": "San Jose"
+    },
+    "commonName": {
+     "default": "Sharks"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020482,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-07",
+   "startTimeUTC": "2026-12-07T18:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "ALT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "COL",
+    "placeName": {
+     "default": "Colorado"
+    },
+    "commonName": {
+     "default": "Avalanche"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020504,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-10",
+   "startTimeUTC": "2026-12-11T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN1"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "CGY",
+    "placeName": {
+     "default": "Calgary"
+    },
+    "commonName": {
+     "default": "Flames"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020512,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-11",
+   "startTimeUTC": "2026-12-12T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Lenovo Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "CARNHL"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "HHN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "CAR",
+    "placeName": {
+     "default": "Carolina"
+    },
+    "commonName": {
+     "default": "Hurricanes"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020545,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-15",
+   "startTimeUTC": "2026-12-16T02:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Delta Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "Mammoth+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "Utah16"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "UTA",
+    "placeName": {
+     "default": "Utah"
+    },
+    "commonName": {
+     "default": "Mammoth"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020548,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-16",
+   "startTimeUTC": "2026-12-17T02:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Ball Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "KUSA"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "ALT"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "KTVD"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "COL",
+    "placeName": {
+     "default": "Colorado"
+    },
+    "commonName": {
+     "default": "Avalanche"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020566,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-18",
+   "startTimeUTC": "2026-12-19T03:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "T-Mobile Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "VGK",
+    "placeName": {
+     "default": "Vegas"
+    },
+    "commonName": {
+     "default": "Golden Knights"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020582,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-20",
+   "startTimeUTC": "2026-12-21T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYR",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Rangers"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020591,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-22",
+   "startTimeUTC": "2026-12-23T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "NESN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "BOS",
+    "placeName": {
+     "default": "Boston"
+    },
+    "commonName": {
+     "default": "Bruins"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020602,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-26",
+   "startTimeUTC": "2026-12-27T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "TD Garden"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "NESN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "BOS",
+    "placeName": {
+     "default": "Boston"
+    },
+    "commonName": {
+     "default": "Bruins"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020617,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-27",
+   "startTimeUTC": "2026-12-28T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "TSN5"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "OTT",
+    "placeName": {
+     "default": "Ottawa"
+    },
+    "commonName": {
+     "default": "Senators"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020637,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2026-12-30",
+   "startTimeUTC": "2026-12-30T21:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MNMT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "WSH",
+    "placeName": {
+     "default": "Washington"
+    },
+    "commonName": {
+     "default": "Capitals"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020668,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-02",
+   "startTimeUTC": "2027-01-03T03:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Climate Pledge Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "Prime Video"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "KING"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "KONG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "SEA",
+    "placeName": {
+     "default": "Seattle"
+    },
+    "commonName": {
+     "default": "Kraken"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020687,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-05",
+   "startTimeUTC": "2027-01-06T02:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Rogers Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "CA",
+     "network": "SNP"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "VAN",
+    "placeName": {
+     "default": "Vancouver"
+    },
+    "commonName": {
+     "default": "Canucks"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020700,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-07",
+   "startTimeUTC": "2027-01-08T01:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Scotiabank Saddledome"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN1"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "CGY",
+    "placeName": {
+     "default": "Calgary"
+    },
+    "commonName": {
+     "default": "Flames"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020711,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-09",
+   "startTimeUTC": "2027-01-09T20:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Rogers Place"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "EDM",
+    "placeName": {
+     "default": "Edmonton"
+    },
+    "commonName": {
+     "default": "Oilers"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020739,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-13",
+   "startTimeUTC": "2027-01-14T00:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "TNT"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "truTV"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HBO MAX"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "SN-PIT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "PIT",
+    "placeName": {
+     "default": "Pittsburgh"
+    },
+    "commonName": {
+     "default": "Penguins"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020754,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-15",
+   "startTimeUTC": "2027-01-16T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "Prime Video"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "DAL",
+    "placeName": {
+     "default": "Dallas"
+    },
+    "commonName": {
+     "default": "Stars"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020763,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-16",
+   "startTimeUTC": "2027-01-17T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Prudential Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NJD",
+    "placeName": {
+     "default": "New Jersey"
+    },
+    "commonName": {
+     "default": "Devils"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020778,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-18",
+   "startTimeUTC": "2027-01-18T20:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NSH",
+    "placeName": {
+     "default": "Nashville"
+    },
+    "commonName": {
+     "default": "Predators"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020793,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-20",
+   "startTimeUTC": "2027-01-21T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG-B"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "BUF",
+    "placeName": {
+     "default": "Buffalo"
+    },
+    "commonName": {
+     "default": "Sabres"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020808,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-22",
+   "startTimeUTC": "2027-01-23T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Capital One Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MNMT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "WSH",
+    "placeName": {
+     "default": "Washington"
+    },
+    "commonName": {
+     "default": "Capitals"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020819,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-23",
+   "startTimeUTC": "2027-01-24T00:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "Prime Video"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "KONG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "SEA",
+    "placeName": {
+     "default": "Seattle"
+    },
+    "commonName": {
+     "default": "Kraken"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020840,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-26",
+   "startTimeUTC": "2027-01-27T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "PPG Paints Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "SN-PIT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "PIT",
+    "placeName": {
+     "default": "Pittsburgh"
+    },
+    "commonName": {
+     "default": "Penguins"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020851,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-28",
+   "startTimeUTC": "2027-01-28T23:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Lenovo Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "TNT"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "truTV"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HBO MAX"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "CAR",
+    "placeName": {
+     "default": "Carolina"
+    },
+    "commonName": {
+     "default": "Hurricanes"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020871,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-01-30",
+   "startTimeUTC": "2027-01-31T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Benchmark International Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "The Spot"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "TBL",
+    "placeName": {
+     "default": "Tampa Bay"
+    },
+    "commonName": {
+     "default": "Lightning"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020881,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-01",
+   "startTimeUTC": "2027-02-01T19:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Amerant Bank Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "FLA",
+    "placeName": {
+     "default": "Florida"
+    },
+    "commonName": {
+     "default": "Panthers"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020887,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-03",
+   "startTimeUTC": "2027-02-04T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "KeyBank Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSG-B"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "BUF",
+    "placeName": {
+     "default": "Buffalo"
+    },
+    "commonName": {
+     "default": "Sabres"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020909,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-12",
+   "startTimeUTC": "2027-02-13T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Madison Square Garden"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYR",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Rangers"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020920,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-13",
+   "startTimeUTC": "2027-02-14T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MINNHL"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "Wild+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "MIN",
+    "placeName": {
+     "default": "Minnesota"
+    },
+    "commonName": {
+     "default": "Wild"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020930,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-15",
+   "startTimeUTC": "2027-02-15T20:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSG"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "Mammoth+"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "Utah16"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "UTA",
+    "placeName": {
+     "default": "Utah"
+    },
+    "commonName": {
+     "default": "Mammoth"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020955,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-18",
+   "startTimeUTC": "2027-02-19T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYR",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Rangers"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020972,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-20",
+   "startTimeUTC": "2027-02-21T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Centre Bell"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SNE"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "MTL",
+    "placeName": {
+     "default": "Montr\u00e9al"
+    },
+    "commonName": {
+     "default": "Canadiens"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020987,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-22",
+   "startTimeUTC": "2027-02-23T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Nationwide Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "CBJNHL"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "CBJHN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "CBJ",
+    "placeName": {
+     "default": "Columbus"
+    },
+    "commonName": {
+     "default": "Blue Jackets"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026020995,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-23",
+   "startTimeUTC": "2027-02-24T01:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "United Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "CHSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "CHI",
+    "placeName": {
+     "default": "Chicago"
+    },
+    "commonName": {
+     "default": "Blackhawks"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021013,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-26",
+   "startTimeUTC": "2027-02-27T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "NBCSP"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "PHI",
+    "placeName": {
+     "default": "Philadelphia"
+    },
+    "commonName": {
+     "default": "Flyers"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021025,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-02-27",
+   "startTimeUTC": "2027-02-28T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Nationwide Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "CBJNHL"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "CBJHN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "CBJ",
+    "placeName": {
+     "default": "Columbus"
+    },
+    "commonName": {
+     "default": "Blue Jackets"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021037,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-01",
+   "startTimeUTC": "2027-03-02T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MNMT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "WSH",
+    "placeName": {
+     "default": "Washington"
+    },
+    "commonName": {
+     "default": "Capitals"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021061,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-04",
+   "startTimeUTC": "2027-03-05T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "VGK",
+    "placeName": {
+     "default": "Vegas"
+    },
+    "commonName": {
+     "default": "Golden Knights"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021080,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-07",
+   "startTimeUTC": "2027-03-07T18:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "TNT"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "truTV"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HBO MAX"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "PIT",
+    "placeName": {
+     "default": "Pittsburgh"
+    },
+    "commonName": {
+     "default": "Penguins"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021094,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-09",
+   "startTimeUTC": "2027-03-10T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "TSN2"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "RDS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "MTL",
+    "placeName": {
+     "default": "Montr\u00e9al"
+    },
+    "commonName": {
+     "default": "Canadiens"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021118,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-12",
+   "startTimeUTC": "2027-03-13T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Amerant Bank Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "SCRIPPS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "FLA",
+    "placeName": {
+     "default": "Florida"
+    },
+    "commonName": {
+     "default": "Panthers"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021127,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-13",
+   "startTimeUTC": "2027-03-14T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Benchmark International Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "The Spot"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "TBL",
+    "placeName": {
+     "default": "Tampa Bay"
+    },
+    "commonName": {
+     "default": "Lightning"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021139,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-15",
+   "startTimeUTC": "2027-03-15T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "TD Garden"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "BOS",
+    "placeName": {
+     "default": "Boston"
+    },
+    "commonName": {
+     "default": "Bruins"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021154,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-17",
+   "startTimeUTC": "2027-03-17T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Capital One Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MNMT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "WSH",
+    "placeName": {
+     "default": "Washington"
+    },
+    "commonName": {
+     "default": "Capitals"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021176,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-20",
+   "startTimeUTC": "2027-03-20T19:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "NBCSP"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "PHI",
+    "placeName": {
+     "default": "Philadelphia"
+    },
+    "commonName": {
+     "default": "Flyers"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021187,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-21",
+   "startTimeUTC": "2027-03-21T19:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN360"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "TVAS"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSG-B"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "BUF",
+    "placeName": {
+     "default": "Buffalo"
+    },
+    "commonName": {
+     "default": "Sabres"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021218,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-25",
+   "startTimeUTC": "2027-03-26T00:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Enterprise Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "STLNHL"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "BN+"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "ABC32"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "STL",
+    "placeName": {
+     "default": "St. Louis"
+    },
+    "commonName": {
+     "default": "Blues"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021237,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-27",
+   "startTimeUTC": "2027-03-27T23:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "DSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "DET",
+    "placeName": {
+     "default": "Detroit"
+    },
+    "commonName": {
+     "default": "Red Wings"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021252,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-03-30",
+   "startTimeUTC": "2027-03-30T23:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "ESPN+"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "HULU"
+    },
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "Disney+"
+    },
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN+"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "CAR",
+    "placeName": {
+     "default": "Carolina"
+    },
+    "commonName": {
+     "default": "Hurricanes"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021267,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-04-01",
+   "startTimeUTC": "2027-04-01T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "PPG Paints Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "SN-PIT"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "PIT",
+    "placeName": {
+     "default": "Pittsburgh"
+    },
+    "commonName": {
+     "default": "Penguins"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021273,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-04-02",
+   "startTimeUTC": "2027-04-02T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN1"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "RDS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "OTT",
+    "placeName": {
+     "default": "Ottawa"
+    },
+    "commonName": {
+     "default": "Senators"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021294,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-04-04",
+   "startTimeUTC": "2027-04-04T23:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "TSN2"
+    },
+    {
+     "market": "A",
+     "countryCode": "CA",
+     "network": "RDS"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "MTL",
+    "placeName": {
+     "default": "Montr\u00e9al"
+    },
+    "commonName": {
+     "default": "Canadiens"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021305,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-04-06",
+   "startTimeUTC": "2027-04-06T23:30:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "DSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "DET",
+    "placeName": {
+     "default": "Detroit"
+    },
+    "commonName": {
+     "default": "Red Wings"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021318,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-04-08",
+   "startTimeUTC": "2027-04-08T23:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "Prudential Center"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "CA",
+     "network": "SN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "MSGSN2"
+    },
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NJD",
+    "placeName": {
+     "default": "New Jersey"
+    },
+    "commonName": {
+     "default": "Devils"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  },
+  {
+   "id": 2026021332,
+   "season": 20262027,
+   "gameType": 2,
+   "gameDate": "2027-04-10",
+   "startTimeUTC": "2027-04-10T21:00:00Z",
+   "gameState": "FUT",
+   "venue": {
+    "default": "UBS Arena"
+   },
+   "tvBroadcasts": [
+    {
+     "market": "H",
+     "countryCode": "US",
+     "network": "MSGSN"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "CBJNHL"
+    },
+    {
+     "market": "A",
+     "countryCode": "US",
+     "network": "CBJHN"
+    }
+   ],
+   "homeTeam": {
+    "abbrev": "NYI",
+    "placeName": {
+     "default": "New York"
+    },
+    "commonName": {
+     "default": "Islanders"
+    },
+    "score": null
+   },
+   "awayTeam": {
+    "abbrev": "CBJ",
+    "placeName": {
+     "default": "Columbus"
+    },
+    "commonName": {
+     "default": "Blue Jackets"
+    },
+    "score": null
+   },
+   "gameOutcome": null
+  }
+ ]
+}

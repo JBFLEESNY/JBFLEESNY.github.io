@@ -1,0 +1,35 @@
+name: Update Islanders schedule
+
+on:
+  schedule:
+    # Twice a day (UTC): ~1 AM ET for last night's final score, ~6 AM ET for late West Coast games.
+    - cron: "17 5,10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-isles-schedule
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch schedule
+        run: python3 scripts/update_isles_schedule.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/isles-schedule.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/isles-schedule.json
+          git commit -m "Update Islanders schedule"
+          git push

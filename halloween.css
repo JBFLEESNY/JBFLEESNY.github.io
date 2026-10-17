@@ -1,0 +1,664 @@
+/* ---------- Toggle (visible in both themes) ---------- */
+
+.hw-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.spooky-toggle {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.75rem 0.5rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 125, 28, 0.55);
+  background: rgba(4, 24, 74, 0.92);
+  color: var(--text-primary);
+  font: 600 0.85rem/1 "Space Grotesk", system-ui, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 12px 28px rgba(2, 10, 30, 0.5);
+  backdrop-filter: blur(8px);
+  transition: transform var(--transition-speed) ease;
+}
+
+.spooky-toggle:hover {
+  transform: translateY(-2px);
+}
+
+.spooky-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.spooky-toggle__icon {
+  width: 26px;
+  height: 24px;
+}
+
+.spooky-toggle__switch {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+  transition: background var(--transition-speed) ease;
+}
+
+.spooky-toggle__switch::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform var(--transition-speed) ease;
+}
+
+.spooky-toggle[aria-pressed="true"] .spooky-toggle__switch {
+  background: var(--accent);
+}
+
+.spooky-toggle[aria-pressed="true"] .spooky-toggle__switch::after {
+  transform: translateX(14px);
+}
+
+@media (max-width: 420px) {
+  .spooky-toggle__label {
+    display: none;
+  }
+}
+
+.footer {
+  padding-bottom: 5rem;
+}
+
+/* ---------- Theme ---------- */
+
+:root[data-theme="halloween"] {
+  --bg-primary: #120b07;
+  --text-primary: #f1e4c8;
+  --text-secondary: #cbb48c;
+  --accent: #e2731d;
+  --accent-strong: #f59a35;
+  --accent-soft: rgba(226, 115, 29, 0.22);
+  --bright-blue: #d9a336;
+  --electric-blue: #f59a35;
+  --card-border: rgba(226, 115, 29, 0.35);
+  --shadow-soft: 0 28px 65px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 16px 36px rgba(0, 0, 0, 0.5);
+  --radius-large: 10px;
+  --radius-medium: 8px;
+  --radius-small: 6px;
+  --hw-ink: #120a05;
+  --hw-card: #1a110a;
+  --hw-line: rgba(226, 115, 29, 0.38);
+  --hw-paper-line: rgba(241, 228, 200, 0.16);
+  --hw-serif: "IM Fell English", Georgia, serif;
+  --hw-display: "IM Fell English SC", "IM Fell English", Georgia, serif;
+  --hw-type: "Special Elite", "Courier New", monospace;
+  color-scheme: dark;
+}
+
+[data-theme="halloween"] body {
+  font-family: var(--hw-serif);
+  font-size: 1.04rem;
+  background:
+    radial-gradient(circle at 86% 6%, rgba(241, 228, 200, 0.13), transparent 28%),
+    radial-gradient(ellipse at 10% 40%, rgba(91, 58, 99, 0.2), transparent 50%),
+    radial-gradient(ellipse at 50% 115%, rgba(226, 115, 29, 0.22), transparent 60%),
+    var(--bg-primary);
+}
+
+[data-theme="halloween"] body::before {
+  background: none;
+}
+
+/* Film grain + vignette */
+[data-theme="halloween"] body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.5) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .95 0 0 0 0 .85 0 0 0 0 .7 .28 0 0 0 -.06'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: hwFlicker 7s steps(1) infinite;
+}
+
+[data-theme="halloween"] :is(
+    .hero__title,
+    .countdown-heading h2,
+    .panel__header h2,
+    .milestone-card__title,
+    .isles-schedule h3,
+    .isles-countdown__opponent,
+    .cta-button,
+    .hero__badge-value
+  ) {
+  font-family: var(--hw-display);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+[data-theme="halloween"] :is(
+    .eyebrow,
+    .status-label,
+    .status-value,
+    .progress-percent,
+    .footnote-label,
+    .footnote-value,
+    .milestone-node__label,
+    .milestone-node__status,
+    .milestone-node__count,
+    .milestone-card__days,
+    .milestone-card__status,
+    .hero__badge-label,
+    .isles-countdown__label,
+    .isles-countdown__timer,
+    .isles-countdown__broadcast,
+    .isles-schedule__date,
+    .isles-schedule__meta,
+    .isles-schedule__badge,
+    .spooky-toggle
+  ) {
+  font-family: var(--hw-type);
+  font-weight: 400;
+}
+
+[data-theme="halloween"] .hero__title {
+  font-size: clamp(2.8rem, 5.4vw, 4.2rem);
+  text-shadow: 3px 3px 0 rgba(201, 86, 26, 0.75);
+}
+
+[data-theme="halloween"] .panel__header h2,
+[data-theme="halloween"] .countdown-heading h2 {
+  text-shadow: 2px 2px 0 rgba(201, 86, 26, 0.55);
+}
+
+[data-theme="halloween"] .eyebrow {
+  color: var(--accent-strong);
+}
+
+/* Framed "printed card" surfaces */
+[data-theme="halloween"] :is(.hero, .panel) {
+  background: linear-gradient(170deg, #22160d, #160d08);
+  border: 1px solid var(--hw-line);
+  box-shadow:
+    inset 0 0 0 6px #1b1009,
+    inset 0 0 0 7px var(--hw-paper-line),
+    var(--shadow-soft);
+}
+
+[data-theme="halloween"] .hero::after {
+  background: conic-gradient(
+    from 140deg,
+    rgba(226, 115, 29, 0.5),
+    rgba(91, 58, 99, 0.45),
+    rgba(226, 115, 29, 0.5)
+  );
+  opacity: 0.1;
+}
+
+[data-theme="halloween"] .panel--milestones::after {
+  background: radial-gradient(closest-side, rgba(226, 115, 29, 0.14), transparent);
+}
+
+[data-theme="halloween"] .hero__countdown {
+  background: linear-gradient(160deg, rgba(42, 27, 16, 0.95), rgba(26, 17, 10, 0.95));
+  border: 1px solid var(--hw-line);
+}
+
+[data-theme="halloween"] .hero__countdown::before {
+  background: radial-gradient(closest-side, rgba(226, 115, 29, 0.2), transparent);
+}
+
+[data-theme="halloween"] :is(
+    .status-card,
+    .progress-board,
+    .milestone-node,
+    .milestone-card,
+    .isles-countdown,
+    .isles-schedule
+  ) {
+  background: var(--hw-card);
+  border: 1px solid var(--hw-paper-line);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="halloween"] .status-card {
+  box-shadow:
+    inset 0 0 0 4px var(--hw-card),
+    inset 0 0 0 5px rgba(226, 115, 29, 0.22),
+    0 12px 24px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="halloween"] .status-label {
+  color: var(--accent-strong);
+}
+
+/* Candy-corn progress bars */
+[data-theme="halloween"] :is(.progress-bar, .milestone-track__rail, .milestone-card__progress) {
+  background: rgba(241, 228, 200, 0.1);
+}
+
+[data-theme="halloween"] :is(
+    .progress-bar__fill,
+    .milestone-track__progress,
+    .milestone-card__progress-fill
+  ) {
+  background: repeating-linear-gradient(
+    -45deg,
+    #e2731d 0 10px,
+    #f2c14e 10px 20px,
+    #f1e4c8 20px 30px
+  );
+  box-shadow: 0 0 18px rgba(226, 115, 29, 0.35);
+}
+
+[data-theme="halloween"] .progress-bar {
+  overflow: visible;
+}
+
+[data-theme="halloween"] .progress-bar__fill {
+  position: relative;
+}
+
+.hw-runner {
+  position: absolute;
+  right: -17px;
+  top: 50%;
+  width: 34px;
+  height: 31px;
+  transform: translateY(-58%);
+}
+
+.hw-runner .hw-pumpkin {
+  width: 100%;
+  height: 100%;
+}
+
+/* Buttons: offset-print shadow */
+[data-theme="halloween"] .cta-button {
+  border-radius: 6px;
+  background: var(--accent);
+  color: var(--hw-ink);
+  border: 1px solid var(--hw-ink);
+  font-size: 1.08rem;
+  box-shadow: 4px 4px 0 var(--hw-ink);
+}
+
+[data-theme="halloween"] .cta-button:hover {
+  box-shadow: 6px 8px 0 var(--hw-ink);
+}
+
+[data-theme="halloween"] .cta-button--ghost {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid rgba(241, 228, 200, 0.4);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="halloween"] .cta-button--ghost:hover {
+  border-color: var(--accent-strong);
+}
+
+/* Badge as a cream paper label */
+[data-theme="halloween"] .hero__badge {
+  background: #f1e4c8;
+  border: 2px solid var(--hw-ink);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 var(--accent);
+  backdrop-filter: none;
+}
+
+[data-theme="halloween"] .hero__badge-label {
+  color: #9c3d07;
+}
+
+[data-theme="halloween"] .hero__badge-value {
+  color: var(--hw-ink);
+  font-size: 1.6rem;
+}
+
+/* Orbit becomes a moon with bats; NY gets a tombstone */
+[data-theme="halloween"] .orbit__ring {
+  border: 1px dashed rgba(241, 228, 200, 0.14);
+}
+
+.hw-moon {
+  position: absolute;
+  inset: 22%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 62% 30%, rgba(160, 140, 100, 0.35) 0 7%, transparent 8%),
+    radial-gradient(circle at 35% 60%, rgba(160, 140, 100, 0.3) 0 11%, transparent 12%),
+    radial-gradient(circle at 66% 70%, rgba(160, 140, 100, 0.25) 0 6%, transparent 7%),
+    radial-gradient(circle at 40% 35%, #fbf3dc, #eadbb2 60%, #cdb47e);
+  box-shadow:
+    0 0 40px 12px rgba(251, 243, 220, 0.18),
+    0 0 90px 30px rgba(226, 115, 29, 0.12);
+}
+
+[data-theme="halloween"] .orbit__marker {
+  z-index: 2;
+  border-radius: 6px;
+  backdrop-filter: none;
+}
+
+[data-theme="halloween"] .orbit__marker--ny {
+  flex-direction: column;
+  border-radius: 24px 24px 5px 5px;
+  border: 2px solid var(--hw-ink);
+  background: linear-gradient(#8a837b, #57514a);
+  color: var(--hw-ink);
+  font-family: var(--hw-type);
+  font-size: 0.78rem;
+  line-height: 1;
+}
+
+[data-theme="halloween"] .orbit__marker--ny::before {
+  content: "R.I.P.";
+  font-size: 0.5rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 3px;
+}
+
+[data-theme="halloween"] .orbit__marker--fl {
+  border: 2px solid var(--hw-ink);
+  background: var(--accent);
+  color: var(--hw-ink);
+  font-family: var(--hw-type);
+}
+
+.hw-bat-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 30px;
+  height: 15px;
+  margin: -7.5px 0 0 -15px;
+  animation: hwBatOrbit 9s linear infinite;
+  animation-delay: calc(var(--i) * -3s);
+}
+
+.hw-bat {
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: hwFlap 0.32s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 2px rgba(241, 228, 200, 0.55));
+}
+
+.hw-sky {
+  position: fixed;
+  top: 14vh;
+  left: 0;
+  z-index: 40;
+  width: 46px;
+  height: 23px;
+  pointer-events: none;
+  transform: translateX(-80px);
+  animation: hwSkyFlight 34s linear 5s infinite both;
+}
+
+/* Cobwebs and spiders */
+.hw-web {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  line-height: 0;
+  color: rgba(241, 228, 200, 0.26);
+  pointer-events: none;
+}
+
+.hw-web--left {
+  left: 0;
+}
+
+.hw-web--right {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.hw-spider {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 26px;
+  height: calc(var(--thread) + 26px);
+  cursor: pointer;
+  animation:
+    hwSpiderDrop 1.6s cubic-bezier(0.3, 1.4, 0.5, 1) var(--delay) both,
+    hwSpiderBob 4s ease-in-out calc(var(--delay) + 1.6s) infinite;
+}
+
+.hw-spider--left {
+  left: 14px;
+}
+
+.hw-spider--right {
+  right: 12px;
+}
+
+.hw-spider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: var(--thread);
+  background: rgba(241, 228, 200, 0.55);
+}
+
+.hw-spider__body {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 26px;
+  height: 26px;
+  filter: drop-shadow(0 0 1.5px rgba(241, 228, 200, 0.7));
+}
+
+.hw-spider.is-scurrying {
+  animation: hwSpiderScurry 0.5s ease-in both;
+}
+
+/* Jack-o'-lanterns */
+.hw-patch {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.hw-patch--hero {
+  margin: -0.4rem 0 0;
+}
+
+.hw-pumpkin {
+  width: 56px;
+  height: 50px;
+  overflow: visible;
+  animation: hwCandle 3.2s infinite;
+}
+
+.hw-pumpkin--sm {
+  width: 40px;
+  height: 36px;
+  animation-delay: -1.1s;
+}
+
+.hw-pumpkin--lg {
+  width: 72px;
+  height: 65px;
+  animation-delay: -2.3s;
+}
+
+[data-theme="halloween"] .milestone-node.is-active {
+  background: linear-gradient(135deg, #2a1b10, rgba(226, 115, 29, 0.3));
+  border-color: var(--accent);
+}
+
+[data-theme="halloween"] .milestone-node:is(:hover, :focus-visible) {
+  border-color: var(--accent);
+}
+
+[data-theme="halloween"] .milestone-card::before {
+  background: radial-gradient(closest-side, rgba(226, 115, 29, 0.12), transparent);
+}
+
+[data-theme="halloween"] .milestone-card:is(.state-active, .is-active) {
+  border-color: var(--accent);
+  box-shadow:
+    0 0 0 1px rgba(226, 115, 29, 0.3),
+    0 20px 44px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="halloween"] .isles-countdown__timer span {
+  background: #120b07;
+  border: 1px solid var(--hw-line);
+  border-radius: 4px;
+}
+
+[data-theme="halloween"] .isles-countdown__timer strong {
+  font-weight: 400;
+}
+
+[data-theme="halloween"] .isles-schedule__item {
+  background: #21150d;
+  border: 1px solid var(--hw-paper-line);
+  border-radius: 6px;
+}
+
+[data-theme="halloween"] .isles-schedule__item--home {
+  border-left: 4px solid var(--accent);
+}
+
+[data-theme="halloween"] .isles-schedule__item--away {
+  border-left: 4px solid #8a6a94;
+}
+
+[data-theme="halloween"] .isles-countdown__last {
+  border-top-color: var(--hw-paper-line);
+}
+
+[data-theme="halloween"] .isles-schedule__badge {
+  border-color: var(--hw-line);
+}
+
+[data-theme="halloween"] .isles-schedule__badge--live {
+  color: var(--hw-ink);
+}
+
+[data-theme="halloween"] .footer {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+[data-theme="halloween"] .spooky-toggle {
+  background: rgba(26, 17, 10, 0.94);
+  border-color: var(--accent);
+  box-shadow: 4px 4px 0 var(--hw-ink);
+}
+
+@keyframes hwFlicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0.82;
+  }
+  34% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0.9;
+  }
+  72% {
+    opacity: 1;
+  }
+}
+
+@keyframes hwCandle {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 9px rgba(245, 154, 53, 0.45));
+  }
+  20% {
+    filter: drop-shadow(0 0 5px rgba(245, 154, 53, 0.3));
+  }
+  45% {
+    filter: drop-shadow(0 0 14px rgba(245, 154, 53, 0.6));
+  }
+  70% {
+    filter: drop-shadow(0 0 7px rgba(245, 154, 53, 0.38));
+  }
+}
+
+@keyframes hwBatOrbit {
+  from {
+    transform: rotate(0deg) translateX(calc(64px + var(--i) * 12px)) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(calc(64px + var(--i) * 12px)) rotate(-360deg);
+  }
+}
+
+@keyframes hwFlap {
+  to {
+    transform: scaleY(0.45);
+  }
+}
+
+@keyframes hwSkyFlight {
+  0% {
+    transform: translate(-80px, 0);
+  }
+  8% {
+    transform: translate(25vw, -4vh);
+  }
+  16% {
+    transform: translate(55vw, 3vh);
+  }
+  26%,
+  100% {
+    transform: translate(calc(100vw + 80px), -6vh);
+  }
+}
+
+@keyframes hwSpiderDrop {
+  from {
+    transform: translateY(calc(-1 * var(--thread) - 30px));
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes hwSpiderBob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(8px) rotate(2deg);
+  }
+}
+
+@keyframes hwSpiderScurry {
+  to {
+    transform: translateY(calc(-1 * var(--thread) - 30px));
+  }
+}
