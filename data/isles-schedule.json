@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T13:52:42+00:00",
+ "updatedAt": "2026-10-18T09:41:25+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -523,7 +523,7 @@
    "gameType": 2,
    "gameDate": "2026-10-17",
    "startTimeUTC": "2026-10-17T23:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Scotiabank Arena"
    },
@@ -547,7 +547,7 @@
     "commonName": {
      "default": "Maple Leafs"
     },
-    "score": null
+    "score": 1
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -557,9 +557,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 4
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020143,
