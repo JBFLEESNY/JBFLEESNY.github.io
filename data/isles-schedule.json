@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T09:41:25+00:00",
+ "updatedAt": "2026-10-21T10:16:27+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -569,7 +569,7 @@
    "gameType": 2,
    "gameDate": "2026-10-20",
    "startTimeUTC": "2026-10-20T23:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -598,7 +598,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 3
    },
    "awayTeam": {
     "abbrev": "ANA",
@@ -608,9 +608,11 @@
     "commonName": {
      "default": "Ducks"
     },
-    "score": null
+    "score": 2
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020159,
