@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T10:16:27+00:00",
+ "updatedAt": "2026-10-23T10:10:35+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -620,7 +620,7 @@
    "gameType": 2,
    "gameDate": "2026-10-22",
    "startTimeUTC": "2026-10-22T23:30:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -654,7 +654,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 2
    },
    "awayTeam": {
     "abbrev": "LAK",
@@ -664,9 +664,11 @@
     "commonName": {
      "default": "Kings"
     },
-    "score": null
+    "score": 3
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "OT"
+   }
   },
   {
    "id": 2026020181,
