@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T10:10:35+00:00",
+ "updatedAt": "2026-10-24T09:36:17+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -3725,7 +3725,7 @@
     {
      "market": "N",
      "countryCode": "CA",
-     "network": "SN360"
+     "network": "SN+"
     },
     {
      "market": "N",
