@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T11:12:35+00:00",
+ "updatedAt": "2026-10-28T11:24:19+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -722,7 +722,7 @@
    "gameType": 2,
    "gameDate": "2026-10-27",
    "startTimeUTC": "2026-10-28T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Bridgestone Arena"
    },
@@ -751,7 +751,7 @@
     "commonName": {
      "default": "Predators"
     },
-    "score": null
+    "score": 3
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -761,9 +761,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 4
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "SO"
+   }
   },
   {
    "id": 2026020210,
