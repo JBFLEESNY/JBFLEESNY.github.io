@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T11:24:19+00:00",
+ "updatedAt": "2026-10-30T11:26:46+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -773,7 +773,7 @@
    "gameType": 2,
    "gameDate": "2026-10-29",
    "startTimeUTC": "2026-10-30T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Grand Casino Arena"
    },
@@ -802,7 +802,7 @@
     "commonName": {
      "default": "Wild"
     },
-    "score": null
+    "score": 3
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -812,9 +812,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 4
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "OT"
+   }
   },
   {
    "id": 2026020220,
