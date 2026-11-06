@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T11:53:14+00:00",
+ "updatedAt": "2026-11-06T13:00:15+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -786,12 +786,12 @@
     {
      "market": "H",
      "countryCode": "US",
-     "network": "MINNHL"
+     "network": "Wild+"
     },
     {
      "market": "H",
      "countryCode": "US",
-     "network": "Wild+"
+     "network": "MINNHL"
     }
    ],
    "homeTeam": {
@@ -870,7 +870,7 @@
    "gameType": 2,
    "gameDate": "2026-11-05",
    "startTimeUTC": "2026-11-06T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -904,7 +904,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 3
    },
    "awayTeam": {
     "abbrev": "CAR",
@@ -914,9 +914,11 @@
     "commonName": {
      "default": "Hurricanes"
     },
-    "score": null
+    "score": 5
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020270,
@@ -1138,12 +1140,12 @@
     {
      "market": "A",
      "countryCode": "US",
-     "network": "CBJNHL"
+     "network": "CBJHN"
     },
     {
      "market": "A",
      "countryCode": "US",
-     "network": "CBJHN"
+     "network": "CBJNHL"
     }
    ],
    "homeTeam": {
@@ -1319,12 +1321,12 @@
     {
      "market": "A",
      "countryCode": "US",
-     "network": "STLNHL"
+     "network": "BN+"
     },
     {
      "market": "A",
      "countryCode": "US",
-     "network": "BN+"
+     "network": "STLNHL"
     }
    ],
    "homeTeam": {
@@ -1701,12 +1703,12 @@
     {
      "market": "H",
      "countryCode": "US",
-     "network": "CARNHL"
+     "network": "HHN"
     },
     {
      "market": "H",
      "countryCode": "US",
-     "network": "HHN"
+     "network": "CARNHL"
     }
    ],
    "homeTeam": {
@@ -2930,12 +2932,12 @@
     {
      "market": "A",
      "countryCode": "US",
-     "network": "MINNHL"
+     "network": "Wild+"
     },
     {
      "market": "A",
      "countryCode": "US",
-     "network": "Wild+"
+     "network": "MINNHL"
     }
    ],
    "homeTeam": {
@@ -3121,12 +3123,12 @@
     {
      "market": "H",
      "countryCode": "US",
-     "network": "CBJNHL"
+     "network": "CBJHN"
     },
     {
      "market": "H",
      "countryCode": "US",
-     "network": "CBJHN"
+     "network": "CBJNHL"
     }
    ],
    "homeTeam": {
@@ -3263,12 +3265,12 @@
     {
      "market": "H",
      "countryCode": "US",
-     "network": "CBJNHL"
+     "network": "CBJHN"
     },
     {
      "market": "H",
      "countryCode": "US",
-     "network": "CBJHN"
+     "network": "CBJNHL"
     }
    ],
    "homeTeam": {
@@ -3797,7 +3799,7 @@
     {
      "market": "H",
      "countryCode": "US",
-     "network": "STLNHL"
+     "network": "ABC32"
     },
     {
      "market": "H",
@@ -3807,7 +3809,7 @@
     {
      "market": "H",
      "countryCode": "US",
-     "network": "ABC32"
+     "network": "STLNHL"
     }
    ],
    "homeTeam": {
@@ -4184,12 +4186,12 @@
     {
      "market": "A",
      "countryCode": "US",
-     "network": "CBJNHL"
+     "network": "CBJHN"
     },
     {
      "market": "A",
      "countryCode": "US",
-     "network": "CBJHN"
+     "network": "CBJNHL"
     }
    ],
    "homeTeam": {
