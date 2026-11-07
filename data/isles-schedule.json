@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T13:00:15+00:00",
+ "updatedAt": "2026-11-07T11:46:52+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -2316,11 +2316,6 @@
      "market": "N",
      "countryCode": "US",
      "network": "TNT"
-    },
-    {
-     "market": "N",
-     "countryCode": "US",
-     "network": "truTV"
     },
     {
      "market": "N",
