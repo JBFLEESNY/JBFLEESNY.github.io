@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T11:46:52+00:00",
+ "updatedAt": "2026-11-08T11:58:50+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -926,7 +926,7 @@
    "gameType": 2,
    "gameDate": "2026-11-07",
    "startTimeUTC": "2026-11-08T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -950,7 +950,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 4
    },
    "awayTeam": {
     "abbrev": "NJD",
@@ -960,9 +960,11 @@
     "commonName": {
      "default": "Devils"
     },
-    "score": null
+    "score": 5
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "OT"
+   }
   },
   {
    "id": 2026020285,
