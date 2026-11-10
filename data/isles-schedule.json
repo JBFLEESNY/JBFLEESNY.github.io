@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T11:58:50+00:00",
+ "updatedAt": "2026-11-10T13:33:42+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -972,7 +972,7 @@
    "gameType": 2,
    "gameDate": "2026-11-09",
    "startTimeUTC": "2026-11-10T03:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "SAP Center at San Jose"
    },
@@ -1001,7 +1001,7 @@
     "commonName": {
      "default": "Sharks"
     },
-    "score": null
+    "score": 3
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -1011,9 +1011,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 2
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "SO"
+   }
   },
   {
    "id": 2026020308,
