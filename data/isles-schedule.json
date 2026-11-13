@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T12:47:18+00:00",
+ "updatedAt": "2026-11-13T13:12:10+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1023,7 +1023,7 @@
    "gameType": 2,
    "gameDate": "2026-11-12",
    "startTimeUTC": "2026-11-13T03:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Crypto.com Arena"
    },
@@ -1062,7 +1062,7 @@
     "commonName": {
      "default": "Kings"
     },
-    "score": null
+    "score": 2
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -1072,9 +1072,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 5
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020324,
