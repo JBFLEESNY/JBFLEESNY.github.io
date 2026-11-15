@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T13:12:10+00:00",
+ "updatedAt": "2026-11-15T12:48:04+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1084,7 +1084,7 @@
    "gameType": 2,
    "gameDate": "2026-11-14",
    "startTimeUTC": "2026-11-15T03:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Honda Center"
    },
@@ -1113,7 +1113,7 @@
     "commonName": {
      "default": "Ducks"
     },
-    "score": null
+    "score": 2
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -1123,9 +1123,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 6
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020336,
