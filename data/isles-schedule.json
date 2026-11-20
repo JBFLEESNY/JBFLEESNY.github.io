@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T14:11:29+00:00",
+ "updatedAt": "2026-11-20T14:06:26+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1186,7 +1186,7 @@
    "gameType": 2,
    "gameDate": "2026-11-19",
    "startTimeUTC": "2026-11-20T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Canada Life Centre"
    },
@@ -1210,7 +1210,7 @@
     "commonName": {
      "default": "Jets"
     },
-    "score": null
+    "score": 4
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -1220,9 +1220,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 3
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "OT"
+   }
   },
   {
    "id": 2026020367,
@@ -1607,6 +1609,11 @@
     "default": "UBS Arena"
    },
    "tvBroadcasts": [
+    {
+     "market": "N",
+     "countryCode": "US",
+     "network": "NHLN"
+    },
     {
      "market": "N",
      "countryCode": "CA",
