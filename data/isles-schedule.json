@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-20T14:06:26+00:00",
+ "updatedAt": "2026-11-22T13:25:24+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1232,7 +1232,7 @@
    "gameType": 2,
    "gameDate": "2026-11-21",
    "startTimeUTC": "2026-11-22T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "Little Caesars Arena"
    },
@@ -1256,7 +1256,7 @@
     "commonName": {
      "default": "Red Wings"
     },
-    "score": null
+    "score": 2
    },
    "awayTeam": {
     "abbrev": "NYI",
@@ -1266,9 +1266,11 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 3
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020381,
