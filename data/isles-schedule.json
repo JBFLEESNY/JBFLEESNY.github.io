@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T13:25:24+00:00",
+ "updatedAt": "2026-11-24T15:57:19+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1278,7 +1278,7 @@
    "gameType": 2,
    "gameDate": "2026-11-23",
    "startTimeUTC": "2026-11-24T00:30:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -1302,7 +1302,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 2
    },
    "awayTeam": {
     "abbrev": "TOR",
@@ -1312,9 +1312,11 @@
     "commonName": {
      "default": "Maple Leafs"
     },
-    "score": null
+    "score": 4
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020390,
