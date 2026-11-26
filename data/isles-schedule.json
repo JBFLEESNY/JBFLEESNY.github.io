@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T15:57:19+00:00",
+ "updatedAt": "2026-11-26T15:25:14+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1324,7 +1324,7 @@
    "gameType": 2,
    "gameDate": "2026-11-25",
    "startTimeUTC": "2026-11-26T00:00:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -1353,7 +1353,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 3
    },
    "awayTeam": {
     "abbrev": "STL",
@@ -1363,9 +1363,11 @@
     "commonName": {
      "default": "Blues"
     },
-    "score": null
+    "score": 2
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "SO"
+   }
   },
   {
    "id": 2026020412,
