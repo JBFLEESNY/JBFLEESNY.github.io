@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:25:14+00:00",
+ "updatedAt": "2026-11-28T14:17:27+00:00",
  "games": [
   {
    "id": 2026010008,
@@ -1375,7 +1375,7 @@
    "gameType": 2,
    "gameDate": "2026-11-27",
    "startTimeUTC": "2026-11-28T00:30:00Z",
-   "gameState": "FUT",
+   "gameState": "OFF",
    "venue": {
     "default": "UBS Arena"
    },
@@ -1399,7 +1399,7 @@
     "commonName": {
      "default": "Islanders"
     },
-    "score": null
+    "score": 1
    },
    "awayTeam": {
     "abbrev": "WPG",
@@ -1409,9 +1409,11 @@
     "commonName": {
      "default": "Jets"
     },
-    "score": null
+    "score": 3
    },
-   "gameOutcome": null
+   "gameOutcome": {
+    "lastPeriodType": "REG"
+   }
   },
   {
    "id": 2026020423,
